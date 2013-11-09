@@ -1,9 +1,9 @@
-#include "GameManager.h"
+#include "Menu.h"
 
-int main()
+int main ( void )
 {
-    GameManager gameManager(640, 480, "game");
-    gameManager.action();
+    Menu menu;
+    menu.action ( );
 
     return EXIT_SUCCESS;
 }
